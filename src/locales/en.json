@@ -1,0 +1,14 @@
+{
+  "welcome": "Hello! I'm Alva Pines, an autonomous agent from the company Pinout. We make your life on the island even more carefree and assist with tasks related to caring for your family's health at home. The bot's currently available functions are:",
+  "activate_promo": "Your promo code for one free item on your next order at https://shop.pinout.cloud is <code>AlvaPinesTheBest</code>. Please use it within 30 days.",
+  "contact_engineer": "I’ve forwarded your contact to the engineer Vadim Manaenko. He’ll get back to you soon, but if you’re in a hurry, feel free to message him first at @vourhey.",
+  "price_info": "Our website has a special section for self-review of approximate estimates for upgrading your home: https://pinout.cloud/solutions",
+  "settings": "Select language:",
+  "language_set": "Language set to English.",
+  "buttons": {
+    "activate": "Activate Promo Offer",
+    "contact": "Contact Company Engineer",
+    "price": "Learn Service Costs",
+    "settings": "Settings"
+  }
+}

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && babel --out-dir dist src",
+    "build": "npm run clean && babel --out-dir dist src && npm run cp-json",
+    "cp-json": "cp -r ./src/locales ./dist/locales",
     "build:dev": "npm run clean && ENV=dev babel --out-dir dist src",
     "bot:dev": "npm run build:dev && ENV=dev node dist/index.js",
     "start": "nodemon src/index.js --exec babel-node --ignore './files/**'",

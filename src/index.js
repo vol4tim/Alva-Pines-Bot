@@ -12,7 +12,7 @@ const runApp = () => {
   bot.use(
     session({
       store,
-      defaultSession: () => ({ cart: {}, order: {} })
+      defaultSession: () => ({})
     })
   );
 

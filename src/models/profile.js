@@ -20,6 +20,10 @@ const Profile = db.sequelize.define("profile", {
   },
   address: {
     type: db.Sequelize.STRING
+  },
+  language: {
+    type: db.Sequelize.STRING,
+    defaultValue: 'ru'
   }
 });
 
